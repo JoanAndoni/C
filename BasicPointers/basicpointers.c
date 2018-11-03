@@ -2,7 +2,7 @@
 
 int main()
 {
-	int a = 5;
+				int a = 5;
 	int* ptr = NULL;
 
 	ptr = &a;
@@ -13,7 +13,7 @@ int main()
 	*ptr = 10;
 
 	printf("&A = %p, PTR = %p\n", &a, ptr);
-	
+
 	a = 20;
 	printf("A = %d, *PTR = %d\n", a, *ptr);
 
