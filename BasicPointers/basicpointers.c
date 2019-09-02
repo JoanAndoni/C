@@ -8,7 +8,7 @@ int main()
 	ptr = &a;
 
 	printf("&A = %p, PTR = %p\n", &a, ptr);
-	printf("A = %d, *PTR = %p\n", a, *ptr);
+	printf("A = %d, *PTR = %d\n", a, *ptr);
 
 	*ptr = 10;
 
